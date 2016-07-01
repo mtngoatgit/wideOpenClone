@@ -1,0 +1,207 @@
+h1, h2, h3, h4, h5, h6, p, a, li {
+    font-family: 'Lato', sans-serif;
+    font-size: 700;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 70vh;
+    width: 100%;
+    background: url("/Users/aMoveableFeast/devMTN/wideOpenTech/img_next proj/wot-masthead-dark.jpg") center no-repeat;
+    background-size: cover;
+}
+.main-header {
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    padding: 25px;
+}
+.main-header img {
+    width: 180px;
+}
+.HAM {
+    float: right;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.HAM img {
+    margin: 0;
+    width: 100%;
+}
+.mid-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13vh;
+}
+.mid-section h1 {
+    text-align: center;
+    width: 95%;
+    color: #fff;
+    font-size: 51px;
+}
+.mid-section botton {
+    width: 250px;
+    border: 2px solid #bdd436;
+    text-align: center;
+    padding: 20px;
+    color: #bdd436;
+    border-radius: 40px;
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
+.mid-section button:active {
+    color: #fff;
+    background: #bdd436;
+}
+.mid-section button:focus {
+    outline: none;
+}
+.low-section {
+    height: 45vh;
+    background-color: #fff;
+    color: #6a787c;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    padding: 80px 10px 10px 10px;
+}
+.green-line {
+    width: 25%;
+    margin-right: 37.5%;
+    margin-left: 37.5%;
+        margin-top: 29px;
+    border-top: none;
+    height: 8px;
+    background: #bdd537;
+    color: #bdd537;
+}
+.bottom-container {
+    background-color: #F0F0F0;
+    padding: 8vh;
+}
+.container {
+    background-color: #fff;
+    height: 500px;
+    text-align: center; 
+    padding-top: 19vh;
+    margin-bottom: 8px;
+}
+.container .green-line {
+    margin-bottom: 29px;
+}
+.container h1 {
+    color: #6a787c;
+    font-size: 35px;
+    font-weight: 700;
+}
+.container p {
+    color: #97A2A7;
+    width: 80%;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 5px;
+    line-height: 160%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.container a{
+    color: #bdd537;
+}
+.we-help {
+    background: #fff;
+}
+.we-help img {
+    width: 100%;
+    margin-bottom: 93px;
+}
+.we-help h1 {
+    color: #6a787c;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 10px; 
+}
+.we-help li {
+    color: #97A2A7;
+    /*width: 80%;*/
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 260%;
+    margin-left: 30%;
+}
+.we-help .green-line {
+    width: 25%;
+    margin-left: 10px;
+    margin-top: 29px;
+    border-top: none;
+    height: 8px;
+    background: #bdd537;
+}
+.txt-contain {
+    height: 500px;
+}
+
+.work-with {
+    background-color: #F0F0F0; 
+}
+.logo-contain img {
+    margin: 2em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.lets-talk {
+    background-color: #6A787C;
+    height: 500px;
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+}
+.lets-talk h1 {
+        font-size: 35px;
+    font-weight: 700;
+}
+.lets-talk .green-line {
+    margin-bottom: 29px;
+}
+.lets-talk p {
+    width: 80%;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 160%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.email-cta {
+    width: 120px;
+    border: 2px solid #bdd436;
+    text-align: center;
+    padding: 10px;
+    background-color: #bdd436;
+    color: #6A787C;
+    border-radius: 40px;
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
+footer {
+    background-color: #F0F0F0;
+    height: 80px;
+    text-align: center;
+}
+footer p {
+    color: #6A787C;
+    margin-top: 16px;
+    font-size: 12px; 
+    letter-spacing: 2px;   
+}
+
+span {
+    color: #bdd436;
+}
